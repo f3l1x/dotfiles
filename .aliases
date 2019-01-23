@@ -115,3 +115,6 @@ alias pubkey="more ~/.ssh/id_rsa4096.pub | xclip -selection clipboard | echo '=>
 
 # Pipe my private key to my clipboard.
 alias prikey="more ~/.ssh/id_rsa4096 | xclip -selection clipboard | echo '=> Private key copied to pasteboard.'"
+
+# Brew
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
