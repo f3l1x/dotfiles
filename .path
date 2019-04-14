@@ -1,2 +1,13 @@
+#!/bin/sh
+
 # update path
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export PATH=/usr/local/bin:${PATH}:/sbin
+
+# go path
+#export GOPATH="${HOME}/.go"
+
+# add go path
+#export PATH="/usr/local/go/bin:${GOPATH}/bin:${PATH}"
+
+# add rust path
+export PATH="${HOME}/.cargo/bin:${PATH}"
