@@ -21,4 +21,4 @@ export GMAIL_FROM=rkfelix@gmail.com
 ###
 ### Docker composer
 ###
-#export COMPOSE_API_VERSION=1.18
+export DOCKER_CONTENT_TRUST=0
