@@ -126,3 +126,6 @@ alias prikey="more ~/.ssh/id_rsa4096 | xclip -selection clipboard | echo '=> Pri
 
 # Brew
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+
+# Chrome
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
